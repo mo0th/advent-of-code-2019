@@ -1,6 +1,3 @@
-import sys
-
-
 def run_intcode(intcode):
     i = 0
     while i < len(intcode) and intcode[i] != 99:
